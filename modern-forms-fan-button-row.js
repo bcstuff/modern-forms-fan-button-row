@@ -10,10 +10,10 @@ class ModernFormsFanButtonRow extends LitElement {
 	// They are fixed values for this fan, they cannot be changed.
 	static get speed0Percent() { return 'off'; }
 	static get speed1Percent() { return 16; }
-	static get speed2Percent() { return 33; }
-	static get speed3Percent() { return 50; }
-	static get speed4Percent() { return 66; }
-	static get speed5Percent() { return 83; }
+	static get speed2Percent() { return 32; }
+	static get speed3Percent() { return 48; }
+	static get speed4Percent() { return 64; }
+	static get speed5Percent() { return 80; }
 	static get speed6Percent() { return 100; }
 
 	static get properties() {
